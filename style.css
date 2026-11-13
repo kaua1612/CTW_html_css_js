@@ -57,7 +57,7 @@ button {
 }
 .card-gta{
     width: 920px;
-    background-color: rgb(246, 114, 99);
+    background-color: rgb(22, 3, 1);
     height: auto;
     border-radius: 10px;
     padding: 10px;
@@ -77,11 +77,6 @@ video {
     width: 100%;
     border-radius: 10px;
 }
-.Nomegta{
-    text-align: center;
-    color: aliceblue;
-    font-size: 50px;
-}
 button:hover{
     background-color:rgb(109, 18, 17);
     transition:0.3s;
@@ -93,10 +88,45 @@ button:hover{
     margin-left: 20px;
 }
 .textogta{
-    color:aliceblue;
+    color:rgb(233, 238, 138);
     text-align:center;
     margin-top: 20px;
     margin-left: 20px;
     display: flex;
-    font-size:
+    font-size:25px;
+
+}
+.Nomegta {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  animation: luzesPolicia 0.8s infinite alternate;
+}
+
+@keyframes luzesPolicia {
+  0%, 45% {
+    color: #ffffff;
+    text-shadow: 
+      0 0 5px #ffffff,
+      0 0 15px #0066ff,
+      0 0 30px #0066ff,
+      0 0 60px #0044ff,
+      0 0 100px #0022ff;
+    filter: drop-shadow(0 0 20px #0066ff);
+  }
+  50% {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff;
+    filter: none;
+  }
+  55%, 100% {
+    color: #ffffff;
+    text-shadow: 
+      0 0 5px #ffffff,
+      0 0 15px #ff1100,
+      0 0 30px #ff1100,
+      0 0 60px #cc0000,
+      0 0 100px #990000;
+    filter: drop-shadow(0 0 20px #ff1100);
+  }
 }
